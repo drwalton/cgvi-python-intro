@@ -6,7 +6,7 @@ You can run and edit the code yourself, and I strongly encourage doing so to bet
 
 ## Getting Started
 
-To view these files, you can click on the links for each. This will show you the notebooks themselves, along with the outputs produced when I ran them. However, you won't be able to run the code.
+To view these files, you can click on the links for each file above. This will show you the notebooks themselves, along with the outputs produced when I ran them. However, you won't be able to run the code.
 
 To run the code you will need to open a Jupyter server. The quickest way to do this is to use Google Colab.
 
@@ -29,6 +29,8 @@ Alternatively, you can follow the direct links here:
 * [08: Differentiation & Gradient Descent](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/08_differentiation.ipynb)
 
 If you are logged into your Google account, you should be able to modify the notebooks and save them to your Google Drive if you would like to.
+
+**Warning:** Please note that [computational resources on the free version of Google Colab aren't unlimited](https://research.google.com/colaboratory/faq.html#resource-limits). This shouldn't be an issue for running fairly lightweight code like this tutorial, but if you are running intensive GPU-based machine learning code for coursework, for example, there's a risk you may "run out" of compute at an unfortunate time. Even the [paid versions of Colab (Pro and Pro+)](https://colab.research.google.com/signup) do not absolutely guarantee resources will always be available. If you have access to a good computer, it may be worth the time setting up a local server to get guaranteed compute resources.
 
 ### Running a Local Server
 

@@ -4,6 +4,8 @@ This repository contains jupyter notebook files for the CGVI python induction. E
 
 You can run and edit the code yourself, and I strongly encourage doing so to better understand how it works.
 
+Many of the notebooks contain exercises. These won't be marked but completing them will also deepen your understanding of the material covered here, and should help to prepare you for your other modules.
+
 ## Getting Started
 
 To view these files, you can click on the links for each file above. This will show you the notebooks themselves, along with the outputs produced when I ran them. However, you won't be able to run the code.
@@ -19,14 +21,16 @@ To do this, open [Google Colab](https://colab.research.google.com). Click on Fil
 Alternatively, you can follow the direct links here:
 
 * [00: Introduction](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/00_introduction.ipynb)
-* [01: Python](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/01_python.ipynb)
-* [02: Numpy](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/02_numpy.ipynb)
-* [03: Matplotlib](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/03_matplotlib.ipynb)
-* [04: Images](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/04_images.ipynb)
-* [05: Linear Algebra](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/05_linear_algebra.ipynb)
-* [06: Randomness & Probability](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/06_randomness_probability.ipynb)
-* [07: Loading & Saving](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/07_loading_saving.ipynb)
-* [08: Differentiation & Gradient Descent](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/08_differentiation.ipynb)
+* [01: Variables and Operators](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/01_variables_and_operators.ipynb)
+* [02: Data Structures](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/02_data_structures.ipynb)
+* [03: Control Flow](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/03_control_flow.ipynb)
+* [04: Numpy](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/04_numpy.ipynb)
+* [05: Matplotlib](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/05_matplotlib.ipynb)
+* [06: Images](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/06_images.ipynb)
+* [07: Linear Algebra](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/07_linear_algebra.ipynb)
+* [08: Randomness & Probability](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/08_randomness_probability.ipynb)
+* [09: Loading & Saving](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/09_loading_saving.ipynb)
+* [10: Differentiation & Gradient Descent](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/10_differentiation.ipynb)
 
 If you are logged into your Google account, you should be able to modify the notebooks and save them to your Google Drive if you would like to.
 
@@ -79,3 +83,7 @@ The final examples in the differentiation notebook use Pytorch. If you're runnin
 The examples here do not use GPU, so installing the CPU-only version of pytorch will work fine. 
 
 For Mac OS users, the CPU-only version is the only one available pre-compiled. It is possible to build pytorch from source, but I have not tried this, and CUDA support on Mac OS is limited, so I'm not sure I'd recommend it. If you have a Mac with an Nvidia GPU, you can alternatively install Windows via [Boot Camp](https://support.apple.com/en-gb/boot-camp) and then install pytorch with GPU support (but this will require a licensed copy of Windows).
+
+## Contact
+
+If you run into issues with these notebooks, or find an error in the code, please let me know. You can file an issue on this github repository (go to the Issues tab at the top of the page, and then click the "New Issue" button) to highlight any specific issue with the code. This will be publically viewable. If you would prefer to contact me directly, please do so at `david.walton.13 at ucl.ac.uk`

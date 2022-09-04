@@ -1,24 +1,8 @@
 # CGVI Introduction to Python 2021
 
-This repository contains jupyter notebook files for the CGVI python induction. Each of these notebooks contains a mixture of blocks of code and text. 
+## Quick Start
 
-You can run and edit the code yourself, and I strongly encourage doing so to better understand how it works.
-
-Many of the notebooks contain exercises. These won't be marked but completing them will also deepen your understanding of the material covered here, and should help to prepare you for your other modules.
-
-## Getting Started
-
-To view these files, you can click on the links for each file above. This will show you the notebooks themselves, along with the outputs produced when I ran them. However, you won't be able to run the code.
-
-To run the code you will need to open a Jupyter server. The quickest way to do this is to use Google Colab.
-
-### Colab
-
-Google Colab is a service where Google will host the Jupyter server and run the python code for you on their servers, so you can get started straight away without having to install python.
-
-To do this, open [Google Colab](https://colab.research.google.com). Click on File->Open if you need to, then select the Github tab. Enter the name of this repository, `drwalton/cgvi-python-intro` and you can then select the notebooks for this introduction below.
-
-Alternatively, you can follow the direct links here:
+Use the following links to open each of the notebooks for this session in Google Colab, and run them straight away in your browser:
 
 * [00: Introduction](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/00_introduction.ipynb)
 * [01: Variables and Operators](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/01_variables_and_operators.ipynb)
@@ -31,6 +15,53 @@ Alternatively, you can follow the direct links here:
 * [08: Randomness & Probability](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/08_randomness_probability.ipynb)
 * [09: Loading & Saving](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/09_loading_saving.ipynb)
 * [10: Differentiation & Gradient Descent](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/10_differentiation.ipynb)
+
+This repository contains jupyter notebook files for the CGVI python induction. Each of these notebooks contains a mixture of blocks of code and text. 
+
+You can run and edit the code yourself, and I strongly encourage doing so to better understand how it works.
+
+Many of the notebooks contain exercises. These won't be marked but completing them will also deepen your understanding of the material covered here, and should help to prepare you for your other modules.
+
+## Notebook Contents
+
+Each of the notebooks will introduce a series of concepts in python that will be useful for your CGVI course. The contents of the notebooks are as follows:
+
+* 00: Introduction:
+    * Brief introduction to Jupyter notebook, and how to run code.
+* 01: Variables and Operators:
+    * Introduction to creating and using variables, and operators (e.g. `=`, `*`, `+` and so on).
+* 02: Data Structures:
+    * Structures for storing larger amounts of data, including the list, dict and tuple.
+* 03: Control Flow:
+    * Managing control flow with loops, and organising code into functions.
+* 04: Numpy:
+    * Introduction to the numpy library and its array data structure.
+* 05: Matplotlib:
+    * Introduction to the useful graph-plotting library Matplotlib.
+* 06: Images:
+    * Introduction to the `cv2` image library, and processing image files.
+* 07: Linear Algebra:
+    * Using `numpy` to perform some linear algebra operations.
+* 08: Randomness & Probability:
+    * Using `numpy.random` to generate data following random distributions, and looking at conditional probability.
+* 09: Loading & Saving:
+    * Loading and saving text files, handling exceptions, saving numpy arrays to file.
+* 10: Differentiation & Gradient Descent:
+    * Different ways to differentiate functions in numpy, gradient descent, autodiff in `pytorch`.
+
+## Running the Notebooks
+
+To view these files, you can click on the links for each file above. This will show you the notebooks themselves, along with the outputs produced when I ran them. However, you won't be able to run the code.
+
+To run the code you will need to open a Jupyter server. The quickest way to do this is to use Google Colab.
+
+### Colab
+
+Google Colab is a service where Google will host the Jupyter server and run the python code for you on their servers, so you can get started straight away without having to install python.
+
+To do this, open [Google Colab](https://colab.research.google.com). Click on File->Open if you need to, then select the Github tab. Enter the name of this repository, `drwalton/cgvi-python-intro` and you can then select the notebooks for this introduction below.
+
+Alternatively, you can follow the direct links at the top of the page.
 
 If you are logged into your Google account, you should be able to modify the notebooks and save them to your Google Drive if you would like to.
 

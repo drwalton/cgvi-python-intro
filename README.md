@@ -20,7 +20,17 @@ This repository contains jupyter notebook files for the CGVI python induction. E
 
 You can run and edit the code yourself, and I strongly encourage doing so to better understand how it works.
 
-Many of the notebooks contain exercises. These won't be marked but completing them will also deepen your understanding of the material covered here, and should help to prepare you for your other modules.
+Many of the notebooks contain exercises. These won't be marked but completing them will also deepen your understanding of the material covered here, and should help to prepare you for your other modules. Solutions for these exercises are available in the `solutions` directory, and can be opened in Google Colab through these links:
+
+* [01: Variables and Operators](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/01_variables_and_operators.ipynb)
+* [02: Data Structures](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/02_data_structures.ipynb)
+* [03: Control Flow](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/03_control_flow.ipynb)
+* [05: Matplotlib](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/05_matplotlib.ipynb)
+* [06: Images](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/06_images.ipynb)
+* [07: Linear Algebra](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/07_linear_algebra.ipynb)
+* [08: Randomness & Probability](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/08_randomness_probability.ipynb)
+* [09: Loading & Saving](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/09_loading_saving.ipynb)
+* [10: Differentiation & Gradient Descent](https://colab.research.google.com/github/drwalton/cgvi-python-intro/blob/main/solutions/10_differentiation.ipynb)
 
 ## Notebook Contents
 
